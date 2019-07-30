@@ -1,5 +1,6 @@
 call plug#begin()
 Plug 'morhetz/gruvbox'
+Plug 'ctrlpvim/ctrlp.vim'
 call plug#end()
 
 colorscheme gruvbox
