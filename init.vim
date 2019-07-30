@@ -1,6 +1,7 @@
 call plug#begin()
 Plug 'morhetz/gruvbox'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'dense-analysis/ale'
 call plug#end()
 
 colorscheme gruvbox
@@ -17,5 +18,5 @@ let mapleader="\<space>"
 nnoremap <leader>; A;<esc>
 nnoremap <leader>ev :vsplit ~/.config/nvim/init.vim<cr>
 nnoremap <leader>sv :source ~/.config/nvim/init.vim<cr>
-
-
+nnoremap <leader>[ gT
+nnoremap <leader>] gt
